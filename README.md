@@ -1,4 +1,25 @@
+# Versus-App
+
+A social media site to compare things
+
+  - Users can create posts called "Versus" that contains 2 items to compare
+  - Each item has a name, an image, a comment section and a vote button
+  - For each versus a user can only vote for only one of the items
+  - Users can search for versuses and other users using the search bar
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+MongoDB Atlas is used as database.
+
+Images are stored in Cloudinary.
+
+## Required Environment Variables
+  - MONGO_DB_URL
+  - CLOUDINARY_CLOUD_NAME
+  - CLOUDINARY_API_KEY
+  - CLOUDINARY_API_SECRET
+  - JWT_SECRET
+  - NEXTAUTH_SECRET
 
 ## Getting Started
 
