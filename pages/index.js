@@ -51,11 +51,6 @@ export default function Home(props) {
           className="w-4/5 max-w-[50rem] mx-auto pb-2"
           dataLength={versuses.length}
           next={getVersuses}
-          loader={
-            <h4 className="font-Rubik text-center text-2xl font-bold mt-10">
-              Loading...
-            </h4>
-          }
           endMessage={
             <h4 className="font-Rubik text-center text-2xl font-bold mt-10">
               The End
