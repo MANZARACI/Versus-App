@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .form-label {
+    @apply block text-sm font-medium;
+  }
+  .form-input {
+    @apply bg-zinc-700 p-1 mt-1 block w-full rounded-md;
+  }
+  .navbar-btn {
+    @apply bg-zinc-700 hover:bg-zinc-800 font-medium px-3 py-2 rounded-xl;
+  }
+}
